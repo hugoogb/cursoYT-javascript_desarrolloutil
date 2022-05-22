@@ -25,10 +25,32 @@
 
 // console.log(typeof []);
 
-let resultado = "2" + 2;
+// let resultado = "2" + 2;
 
-console.log(resultado);
+// console.log(resultado);
 
-resultado *= 2;
+// resultado *= 2;
 
-console.log(resultado);
+// console.log(resultado);
+
+const cadena = "5.5";
+const numero = 5.25;
+// const condicion = true;
+const condicion = false;
+const nulo = null;
+let indefinido;
+
+// console.log(numero + condicion);
+// console.log(numero + nulo);
+// console.log(numero + indefinido);
+
+// String();
+// Number();
+// Boolean();
+
+// console.log(Boolean(""));
+
+// parseInt();
+// parseFloat();
+
+console.log(parseInt(cadena));
