@@ -33,12 +33,12 @@
 
 // console.log(resultado);
 
-const cadena = "5.5";
-const numero = 5.25;
+// const cadena = "5.5";
+// const numero = 5.25;
 // const condicion = true;
-const condicion = false;
-const nulo = null;
-let indefinido;
+// const condicion = false;
+// const nulo = null;
+// let indefinido;
 
 // console.log(numero + condicion);
 // console.log(numero + nulo);
@@ -53,4 +53,33 @@ let indefinido;
 // parseInt();
 // parseFloat();
 
-console.log(parseInt(cadena));
+// console.log(parseInt(cadena));
+
+// const obtenerSaludo = function (nombre) {
+// 	return `Hola Mundo de parte de ${nombre}`;
+// };
+
+// const imprimirSaludo = function (mensaje) {
+// 	console.log(mensaje);
+// };
+
+// const alertSaludo = function (mensaje) {
+// 	alert(mensaje);
+// };
+
+// const saludar = function (obtener, imprimir) {
+// 	const saludo = obtener("Hugo");
+// 	imprimir(saludo);
+// };
+
+// saludar(obtenerSaludo, imprimirSaludo);
+// saludar(obtenerSaludo, alertSaludo);
+
+const sumar = (a, b) => a + b;
+
+const multiplicarPorDos = (numero) => numero * 2;
+
+const suma = sumar(2, 3);
+const multiplicado = multiplicarPorDos(suma);
+
+console.log(multiplicado);
