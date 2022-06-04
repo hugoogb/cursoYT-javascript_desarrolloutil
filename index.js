@@ -75,11 +75,66 @@
 // saludar(obtenerSaludo, imprimirSaludo);
 // saludar(obtenerSaludo, alertSaludo);
 
-const sumar = (a, b) => a + b;
+// const sumar = (a, b) => a + b;
 
-const multiplicarPorDos = (numero) => numero * 2;
+// const multiplicarPorDos = (numero) => numero * 2;
 
-const suma = sumar(2, 3);
-const multiplicado = multiplicarPorDos(suma);
+// const suma = sumar(2, 3);
+// const multiplicado = multiplicarPorDos(suma);
 
-console.log(multiplicado);
+// console.log(multiplicado);
+
+// const persona = {
+// 	nombre: "Hugo",
+// 	apellido: "García",
+// 	telefono: "123456789",
+// 	edad: 19,
+// };
+
+// console.log(persona.nombre);
+
+// persona.nombre = "hugogaben";
+
+// console.log(persona.nombre);
+
+// const IVA_GENERAL = 1.21;
+// const IVA_REDUCIDO = 1.1;
+
+// const item1 = {
+// 	precio: 15,
+// 	cantidad: 2,
+// 	impuestos: IVA_GENERAL,
+// 	calcularTotal: function () {
+// 		return this.precio * this.cantidad * this.impuestos;
+// 	},
+// };
+
+// const item2 = {
+// 	precio: 25,
+// 	cantidad: 3,
+// 	impuestos: IVA_REDUCIDO,
+// 	calcularTotal: function () {
+// 		return this.precio * this.cantidad * this.impuestos;
+// 	},
+// };
+
+// const item3 = item2;
+// item3.precio = 23;
+
+// console.log(item2);
+// console.log(item3);
+
+// const factura = {
+// 	item1,
+// 	item2,
+// 	calcularTotal: function (descuento) {
+// 		return (
+// 			(this.item1.calcularTotal() + this.item2.calcularTotal()) *
+// 			descuento
+// 		);
+// 	},
+// };
+
+// console.log(factura);
+
+// console.log(factura.calcularTotal(0.8));
