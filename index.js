@@ -215,3 +215,13 @@
 //  .reduce((a, b) => a + b);
 
 // console.log("Total:", total);
+
+// const a = 1;
+// const b = 2;
+// const c = 3;
+
+// Loose == !=
+// Strict === !==
+// console.log(a === b);
+
+// console.log(!(a < b) || b < c);
