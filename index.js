@@ -138,3 +138,80 @@
 // console.log(factura);
 
 // console.log(factura.calcularTotal(0.8));
+
+// const miArray = [
+// 	"Hola",
+// 	5,
+// 	true,
+// 	null,
+// 	undefined,
+// 	{ a: 2, b: 3 },
+// 	() => "Hola Mundo",
+// 	[1, 2, 3],
+// ];
+
+// console.log(miArray);
+// console.log(miArray.length);
+// console.log(typeof miArray);
+
+// const numbers = ["1", "2", "3", "4"];
+
+// const lastElement = numbers.pop();
+
+// console.log(numbers);
+// console.log(lastElement);
+
+// const firstElement = numbers.shift();
+
+// console.log(numbers);
+// console.log(firstElement);
+
+// numbers.unshift(0);
+
+// console.log(numbers);
+
+// numbers.splice(3, 0, "Hola", "Mundo");
+
+// console.log(numbers);
+
+// numbers.forEach((elem, index) => {
+// 	console.log(elem * index);
+// });
+
+// let numbers = ["1", "2", "3", "4"];
+
+// numbers = numbers.map((i) => Number(i) + 3);
+
+// console.log(numbers);
+
+// const facturas = [
+// 	{
+// 		precio: 23,
+// 		cantidad: 1,
+// 	},
+// 	{
+// 		precio: 19,
+// 		cantidad: 2,
+// 	},
+// 	{
+// 		precio: 14,
+// 		cantidad: 4,
+// 	},
+// 	{
+// 		precio: 22,
+// 		cantidad: 1,
+// 	},
+// ];
+
+// const IVA = 1.21;
+
+// const totalFactura = facturas.map((i) => i.precio * i.cantidad * IVA);
+
+// totalFactura.forEach((e, index) => console.log("Factura " + index + ": " + e));
+
+// const total = facturas
+// 	.map((i) => i.precio * i.cantidad * IVA)
+// 	.filter((i) => i > 22);
+//  .reduce((a, b) => a + b);
+
+// console.log("Total:", total);
