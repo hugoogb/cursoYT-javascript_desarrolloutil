@@ -225,3 +225,16 @@
 // console.log(a === b);
 
 // console.log(!(a < b) || b < c);
+
+// const numero = 0;
+
+// if (numero === 0) console.log("Es cero");
+// else if (numero === 1) console.log("Es uno");
+// else console.log("No es cero ni uno");
+
+const valor = function () {};
+
+if (valor) console.log("Truthy");
+else console.log("Falsy");
+
+// 0 "" null undefined false -> Falsy (false)
