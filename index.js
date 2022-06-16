@@ -232,9 +232,26 @@
 // else if (numero === 1) console.log("Es uno");
 // else console.log("No es cero ni uno");
 
-const valor = function () {};
+// const valor = function () {};
 
-if (valor) console.log("Truthy");
-else console.log("Falsy");
+// if (valor) console.log("Truthy");
+// else console.log("Falsy");
 
 // 0 "" null undefined false -> Falsy (false)
+
+// const numero = 0;
+
+// switch (0) {
+// 	case 0:
+// 	case 1:
+// 	case 2:
+// 		console.log("Cero");
+// 		break;
+// 	case 3:
+// 	case 4:
+// 	case 5:
+// 		console.log("Tres");
+// 		break;
+// 	default:
+// 		console.log("Otro");
+// }
