@@ -255,3 +255,52 @@
 // 	default:
 // 		console.log("Otro");
 // }
+
+// let contador = -5;
+
+// while (contador < 5) {
+// 	contador++;
+
+// 	console.log("While", contador);
+
+// 	if (contador === 3) break;
+// }
+
+// do {
+// 	if (contador === 0) {
+// 		contador++;
+// 		continue;
+// 	}
+
+// 	console.log("While", 10 / contador);
+
+// 	contador++;
+// } while (contador <= 5);
+
+// const cursoJS = [
+// 	"Intro a JS",
+// 	"Variables y tipos",
+// 	"Conversión de tipos",
+// 	"Funciones",
+// ];
+
+// for (let i = 0; i < cursoJS.length; i++) {
+// 	console.log(`${i + 1}. ${cursoJS[i]}`);
+// }
+
+// for (let i = cursoJS.length - 1; i >= 0; i--) {
+// 	console.log(`${i + 1}. ${cursoJS[i]}`);
+// }
+
+// for (const leccion of cursoJS) {
+// 	console.log(leccion);
+// }
+
+const cursoJS = {
+	title: "Curso JS",
+	profesor: "Hugo",
+};
+
+for (const i in cursoJS) {
+	console.log(`${i} -> ${cursoJS[i]}`);
+}
